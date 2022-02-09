@@ -1,0 +1,17 @@
+{
+  "name": "brandon-lee-detty/php-cache-objects",
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "BrandonLeeDetty\\PhpCacheObjects\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Brandon Lee Detty",
+      "email": "brandon.lee.detty@gmail.com"
+    }
+  ]
+}

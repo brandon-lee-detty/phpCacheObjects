@@ -1,0 +1,39 @@
+# results from running
+#   php runComparisonTest.php
+# on Fedora 35, kernel 5.16, php 8.0.15, AMD Ryzen 5850u
+
+TESTING MUNICIPALITY OBJECTS
+[X] unexpected properties
+[ ] gc after populating data
+    50.01 MiB w/objects
+      in 0.036 seconds
+    49.02 MiB w/objects from arrays
+      in 0.031 seconds
+    39.86 MiB w/arrays
+      in 0.018 seconds
+[ ] unexpected properties
+[ ] gc after populating data
+    13.16 MiB w/objects
+      in 0.016 seconds
+    13.16 MiB w/objects from arrays
+      in 0.022 seconds
+    39.86 MiB w/arrays
+      in 0.017 seconds
+
+TESTING PERSON OBJECTS
+[X] unexpected properties
+[ ] gc after populating data
+   314.53 MiB w/objects
+      in 0.166 seconds
+   314.52 MiB w/objects from arrays
+      in 0.123 seconds
+   253.49 MiB w/arrays
+      in 0.07 seconds
+[ ] unexpected properties
+[ ] gc after populating data
+    65.04 MiB w/objects
+      in 0.044 seconds
+    65.04 MiB w/objects from arrays
+      in 0.06 seconds
+   131.41 MiB w/arrays
+      in 0.061 seconds
